@@ -13,8 +13,10 @@ int main() {
 	} else {
 		for (int i = 2; i <= inputNumber; i++) {
 			if (inputNumber % i == 0) {
-				isPrime = false;
-				break;
+				if (i != inputNumber) {
+					isPrime = false;
+					break;
+				}
 			}
 		}
 	}
