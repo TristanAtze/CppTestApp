@@ -21,9 +21,15 @@
     <ClCompile Include="Test2.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="Primzahlen.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Test2.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Primzahlen.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>
