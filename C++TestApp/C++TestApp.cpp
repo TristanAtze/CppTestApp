@@ -2,8 +2,14 @@
 //
 
 #include <iostream>
+#include <string>
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    int zahl;
+	std::cout << "Geben Sie eine Zahl ein: ";
+	std::cin >> zahl;
+	std::cout << "Die eingegebene Zahl ist: " << zahl << std::endl;
+    system("pause");
+    return 0;
 }
