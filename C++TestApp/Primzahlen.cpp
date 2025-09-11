@@ -1,6 +1,9 @@
 #include <iostream>
 #include <string>
 
+// Commented out main function to avoid multiple main functions
+// Uncomment this and comment out main in Test2.cpp if you want to run the prime number checker
+/*
 int main() {
 	int inputNumber;
 	bool isPrime = true;
@@ -27,3 +30,4 @@ int main() {
 	}
 	system("pause");
 }
+*/
