@@ -38,7 +38,7 @@ int main() {
     auto maxNumIt = max_element(numbers.begin(), numbers.end());
     cout << "Größte Zahl: " << *maxNumIt << endl;
 
-
+    // Kleinste Zahl
     auto minNumIt = min_element(numbers.begin(), numbers.end());
     cout << "Kleinste Zahl: " << *minNumIt << endl;
 
