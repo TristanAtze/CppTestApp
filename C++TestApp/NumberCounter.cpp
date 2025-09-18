@@ -32,7 +32,7 @@ int main() {
     }
     cout << "Summe: " << sum << endl;
 
-
+    // Durchschnitt berechnen
     cout << "Durchschnitt: " << (sum / static_cast<double>(NumCount)) << endl;
 
     auto maxNumIt = max_element(numbers.begin(), numbers.end());
