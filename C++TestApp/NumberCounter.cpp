@@ -16,7 +16,6 @@ int main() {
     cout << "Wie viele Zahlen willst du eingeben? ";
     cin >> NumCount;
 
-    // Speicher für alle Zahlen direkt reservieren
     numbers.reserve(NumCount);
 
     for (int i = 0; i < NumCount; i++) {
@@ -36,7 +35,6 @@ int main() {
     // Durchschnitt berechnen
     cout << "Durchschnitt: " << (sum / static_cast<double>(NumCount)) << endl;
 
-    // Größte Zahl
     auto maxNumIt = max_element(numbers.begin(), numbers.end());
     cout << "Größte Zahl: " << *maxNumIt << endl;
 
