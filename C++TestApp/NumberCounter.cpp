@@ -25,7 +25,6 @@ int main() {
         numbers.push_back(number);
     }
 
-    // Summe berechnen
     int sum = 0;
     for (int value : numbers) {
         sum += value;
