@@ -41,7 +41,6 @@ int main() {
     auto minNumIt = min_element(numbers.begin(), numbers.end());
     cout << "Kleinste Zahl: " << *minNumIt << endl;
 
-    // Bonus
     sort(numbers.begin(), numbers.end());
     cout << "Sortierte Zahlen: ";
     for (int value : numbers) {
