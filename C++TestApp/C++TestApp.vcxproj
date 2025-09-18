@@ -125,6 +125,7 @@
   <ItemGroup>
     <ClCompile Include="C++TestApp.cpp" />
     <ClCompile Include="NumberCounter.cpp" />
+    <ClCompile Include="Palindrom-Prüfer.cpp" />
     <ClCompile Include="Primzahlen.cpp" />
     <ClCompile Include="Test2.cpp" />
   </ItemGroup>
