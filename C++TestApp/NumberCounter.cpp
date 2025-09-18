@@ -35,7 +35,7 @@ int main() {
     // Durchschnitt berechnen
     cout << "Durchschnitt: " << (sum / static_cast<double>(NumCount)) << endl;
 
-
+    // Größte Zahl
     auto maxNumIt = max_element(numbers.begin(), numbers.end());
     cout << "Größte Zahl: " << *maxNumIt << endl;
 
