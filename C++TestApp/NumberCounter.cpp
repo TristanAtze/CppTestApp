@@ -25,6 +25,7 @@ int main() {
         numbers.push_back(number);
     }
 
+
     int sum = 0;
     for (int value : numbers) {
         sum += value;
